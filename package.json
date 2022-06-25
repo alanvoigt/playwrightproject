@@ -1,0 +1,16 @@
+{
+  "name": "playwrightproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "expect": "^27.5.1",
+    "playwright": "^1.17.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.17.1"
+  }
+}
