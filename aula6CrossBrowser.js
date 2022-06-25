@@ -13,7 +13,7 @@ const { chromium, webkit, firefox } = require('playwright');
         await page.type('input[type = "password"]', 'test123')
         await page.click('form >> "Sign in"')
 
-        await page.waitForTimeout(5000)
+        await page.waitForTimeout(6000)
         console.log('Browser Type: ' + browserType.name)
         const logoText = await page.$eval('.navbar-brand', el => el.innerText)
         console.log('logoText: ' + logoText)
